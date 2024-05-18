@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender_options">
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+    <string-array name="role_options">
+        <item>Клиент</item>
+        <item>Сотрудник</item>
+    </string-array>
+</resources>

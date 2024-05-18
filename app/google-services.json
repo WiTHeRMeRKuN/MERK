@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1062916572470",
+    "project_id": "merk-325b5",
+    "storage_bucket": "merk-325b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062916572470:android:9f82afbff0ef45b5d75f97",
+        "android_client_info": {
+          "package_name": "com.example.merk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBozEGRgx-Elysbw1LL36OPJOUti0A4AP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
