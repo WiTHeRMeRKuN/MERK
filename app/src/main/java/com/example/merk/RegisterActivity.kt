@@ -16,7 +16,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-class RegisterActivityssss : AppCompatActivity() {
+class RegisterActivity : AppCompatActivity() {
     private lateinit var sharedPreferences: SharedPreferences
     private lateinit var lastNameEditText: EditText
     private lateinit var firstNameEditText: EditText
@@ -97,9 +97,9 @@ class RegisterActivityssss : AppCompatActivity() {
                 GlobalScope.launch(Dispatchers.IO) {
                     userDao.insertUser(user)
                     withContext(Dispatchers.Main) {
-                      Toast.makeText(this@RegisterActivityssss, "Регистрация завершена. Пожалуйста, войдите в систему.", Toast.LENGTH_LONG).show()
+                      Toast.makeText(this@RegisterActivity, "Регистрация завершена. Пожалуйста, войдите в систему.", Toast.LENGTH_LONG).show()
                         delay(1000)
-                        val intent = Intent(this@RegisterActivityssss, LoginActivity::class.java)
+                        val intent = Intent(this@RegisterActivity, LoginActivity::class.java)
                         intent.putStringArrayListExtra("recoveryWords", ArrayList(recoveryWords))
                         startActivity(intent)
                         finish()

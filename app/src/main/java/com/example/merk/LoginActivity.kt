@@ -81,7 +81,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
         registerButton.setOnClickListener {
-            startActivity(Intent(this, RegisterActivityssss::class.java))
+            startActivity(Intent(this, RegisterActivity::class.java))
         }
 
         forgotPasswordText.setOnClickListener {
